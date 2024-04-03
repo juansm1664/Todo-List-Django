@@ -1,0 +1,30 @@
+<h1>Tasks</h1>
+
+<p>
+  Commodo aliquip Lorem deserunt dolore mollit non ut. Ea et anim non
+  adipisicing veniam est. Minim enim eiusmod enim labore incididunt eiusmod
+  pariatur eu sunt et consequat dolore et ipsum. Est consequat id labore eu.
+  Anim incididunt id sit elit ut elit amet fugiat id sint eiusmod. Cupidatat ea
+  exercitation nisi sint irure quis officia proident irure reprehenderit fugiat.
+  Voluptate ad consequat ullamco sunt ea ipsum enim qui. Veniam eu pariatur
+  excepteur eu consequat laborum et ea. Laboris fugiat dolor laboris consequat
+  ipsum ex irure dolor elit mollit eu. Culpa esse incididunt sint veniam
+  deserunt irure aliquip labore fugiat elit et. Eiusmod et magna commodo sunt
+  eiusmod. Amet dolor esse eiusmod sunt nulla.
+</p>
+
+{% for task in tasks %}
+
+<body>
+  <div>
+    <h1>
+      {% if task.done == False %} ⏱️ {% else %} ✅ {% endif %} {{task.title}}
+    </h1>
+
+    <h2>{{task.description}}</h2>
+    <p>Project is : {{task.project.name}}</p>
+    <button>🗑️Delete</button>
+    <button>✅Done</button>
+  </div>
+</body>
+{% endfor %}
