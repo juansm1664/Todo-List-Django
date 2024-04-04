@@ -1,8 +1,8 @@
-#Todo-List
+## Todo-List
 
 Aplicación basica de creación de proyectos con sus respectiva lista de tareas, desarrollada con Python 3 y Django.
 
-Uso
+# Uso
 - Para añadir una tarea, entra a "Crear tarea" e introduce la descripción de la tarea.
 - Para eliminar una tarea, haz clic en el botón de eliminar junto a la tarea.
 
