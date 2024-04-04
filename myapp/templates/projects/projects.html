@@ -7,6 +7,9 @@
 </p>
 {% for project in projects %}
 
-<h1>{{project.name}}</h1>
-
+<article class="card">
+  <a href="{% url 'project_detail' project.id %}">
+    <h1>{{project.name}}</h1>
+  </a>
+</article>
 {% endfor %} {% endblock %}

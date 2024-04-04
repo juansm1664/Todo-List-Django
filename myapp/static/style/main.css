@@ -1,0 +1,40 @@
+body {
+  background: rgba(9, 8, 8, 0.861);
+  color: whitesmoke;
+}
+.navbar {
+  background: gray;
+  color: white;
+  padding: 5px 10px;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navbar ul li a {
+  color: wheat;
+  text-decoration: none;
+}
+.navbar ul li a:hover {
+  color: purple;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 0;
+}
+.card {
+  background: rgb(214, 214, 214);
+  color: black;
+  padding: 10px;
+  margin-bottom: 2px;
+}
+
+.input {
+  background: wheat;
+  padding: 10px;
+  text-align: center;
+  display: block;
+}
